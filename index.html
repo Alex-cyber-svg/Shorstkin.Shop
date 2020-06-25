@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Магазин музыкальных товаров</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+
+		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+    </head>
+	<body>
+		<!-- HEADER -->
+		<header>
+			<!-- TOP HEADER -->
+			<div id="top-header">
+				<div class="container">
+					<ul class="header-links pull-right">
+						<li><a href="#"><i class="fa fa-user-o"></i> Аккаунт</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /TOP HEADER -->
+
+			<!-- MAIN HEADER -->
+			<div id="header">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<!-- LOGO -->
+						<div class="col-md-3">
+							<div class="header-logo">
+								<a href="#" class="logo">
+									<img src="./img/logo.png" alt="">
+								</a>
+							</div>
+						</div>
+						<!-- /LOGO -->
+
+						<!-- SEARCH BAR -->
+						<div class="col-md-6">
+							<div class="header-search">
+								<form>
+									<select class="input-select">
+										<option value="0">Все категории</option>
+										<option value="1">Гитары</option>
+										<option value="1">Синтезаторы</option>
+										<option value="1">Микрофоны</option>
+									</select>
+									<input class="input" id="js-search-blog-posts" type="text" data-search=".meta_search" class="input-select">
+									<button class="search-btn">Поиск</button>
+									<div class="header-search"></div>
+								</form>
+							</div>
+						</div>
+						<!-- /SEARCH BAR -->
+
+						<!-- ACCOUNT -->
+						<div class="col-md-3 clearfix">
+							<div class="header-ctn">
+
+								<!-- Cart -->
+								<div class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+										<i class="fa fa-shopping-cart"></i>
+										<span>Корзина</span>
+										<div class="qty">0</div>
+									</a>
+									
+								</div>
+								<!-- /Cart -->
+
+								<!-- Menu Toogle -->
+								<div class="menu-toggle">
+									<a href="#">
+										<i class="fa fa-bars"></i>
+										<span>Меню</span>
+									</a>
+								</div>
+								<!-- /Menu Toogle -->
+							</div>
+						</div>
+						<!-- /ACCOUNT -->
+					</div>
+					<!-- row -->
+				</div>
+				<!-- container -->
+			</div>
+			<!-- /MAIN HEADER -->
+		</header>
+		<!-- /HEADER -->
+
+		<!-- NAVIGATION -->
+		<nav id="navigation">
+			<!-- container -->
+			<div class="container">
+				<!-- responsive-nav -->
+				<div id="responsive-nav">
+					<!-- NAV -->
+					<ul class="main-nav nav navbar-nav">
+						<li class="active"><a href="#">Главная</a></li>
+						<li><a href="#">Скидки</a></li>
+						<li><a href="#">Категории</a></li>
+						<li><a href="#">Акции</a></li>
+					</ul>
+					<!-- /NAV -->
+				</div>
+				<!-- /responsive-nav -->
+			</div>
+			<!-- /container -->
+		</nav>
+		<!-- /NAVIGATION -->
+
+		
+
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+
+					<!-- section title -->
+					<div class="col-md-12">
+						<div class="section-title">
+							<h3 class="title">Каталог товаров</h3>
+							<div class="section-nav">
+								<ul class="section-tab-nav tab-nav">
+									<li class="active"><a data-toggle="tab" href="#tab1">Гитары</a></li>
+									<li><a data-toggle="tab" href="#tab1">Синтезаторы</a></li>
+									<li><a data-toggle="tab" href="#tab1">Микрофоны</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- /section title -->
+
+					<!-- Products tab & slick -->
+					<div class="col-md-12">
+						<div class="row">
+							<div class="products-tabs">
+								<!-- tab -->
+								<div id="tab1" class="tab-pane active">
+									<div class="products-slick" data-nav="#slick-nav-1">
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product01.png" alt="">
+												<div class="product-label">
+													<span class="sale">-50%</span>
+													<span class="new">Новое</span>
+												</div>
+											</div>
+											<div class="product-body">
+												<p class="product-category">Гитары</p>
+												<p class="meta_search" style="display: none;">YAMAHA C40</p>
+												<h3 class="product-name"><a href="./product1.html">YAMAHA C40</a></h3>
+												<h4 class="product-price">8 990 р <del class="product-old-price">10 000 р</del></h4>
+												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="product-btns">
+													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">добавить в желаемое</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">сравнить</span></button>
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">быстрый просмотр</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> добавить в корзину</button>
+											</div>
+										</div>
+										<!-- /product -->
+
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product02.png" alt="">
+												<div class="product-label">
+													<span class="sale">-10%</span>
+												</div>
+											</div>
+											<div class="product-body">
+												<p class="product-category">Гитары</p>
+												<h3 class="product-name"><a href="./product2.html">FENDER SQUIER BULLET TREM HSS BSB</a></h3>
+												<h4 class="product-price">16 920 р <del class="product-old-price">18 880 р</del></h4>
+												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star-o"></i>
+												</div>
+												<div class="product-btns">
+													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">добавить в желаемое</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">сравнить</span></button>
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">быстрый просмотр</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> добавить в корзину</button>
+											</div>
+										</div>
+										<!-- /product -->
+
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product03.png" alt="">
+												<div class="product-label">
+													<span class="sale">-30%</span>
+												</div>
+											</div>
+											<div class="product-body">
+												<p class="product-category">Синтезаторы</p>
+												<h3 class="product-name"><a href="./product3.html">CASIO CT-X700</a></h3>
+												<h4 class="product-price">19 990 р <del class="product-old-price">21 990 р</del></h4>
+												<div class="product-rating">
+												</div>
+												<div class="product-btns">
+													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">добавить в желаемое</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">сравнить</span></button>
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">быстрый просмотр</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> добавить в корзину</button>
+											</div>
+										</div>
+										<!-- /product -->
+
+										<!-- product -->
+										<div class="product">
+											<div class="product-img">
+												<img src="./img/product04.png" alt="">
+												<div class="product-label">
+													<span class="sale">-28%</span>
+												</div>
+											</div>
+											<div class="product-body">
+												<p class="product-category">Микрофоны</p>
+												<h3 class="product-name"><a href="./product4.html">AKG P220</a></h3>
+												<h4 class="product-price">11 990 р <del class="product-old-price">16 690 р</del></h4>
+												<div class="product-rating">
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+													<i class="fa fa-star"></i>
+												</div>
+												<div class="product-btns">
+													<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">добавить в желаемое</span></button>
+													<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">сравнить</span></button>
+													<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">быстрый просмотр</span></button>
+												</div>
+											</div>
+											<div class="add-to-cart">
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> добавить в корзину</button>
+											</div>
+										</div>
+										<!-- /product -->
+
+										<!-- /product -->
+									</div>
+									<div id="slick-nav-1" class="products-slick-nav"></div>
+								</div>
+								<!-- /tab -->
+							</div>
+						</div>
+					</div>
+					<!-- Products tab & slick -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+
+
+		<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/navigation.js"></script>
+
+	</body>
+</html>
